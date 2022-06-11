@@ -8,7 +8,13 @@ Tools represented in this repository:
 
 #### junit-to-md
 
+[junit-to-md summary](./junit-to-md/out/junit-to-md-summary.md)
+[junit-to-md text](./junit-to-md/out/junit-to-md-text.md)
+
 #### lint-to-md
+
+[lint-to-md summary](./lint-to-md/out/lint-to-md-summary.md)
+[lint-to-md text](./lint-to-md/out/lint-to-md-text.md)
 
 #### swiftlint-to-md
 
