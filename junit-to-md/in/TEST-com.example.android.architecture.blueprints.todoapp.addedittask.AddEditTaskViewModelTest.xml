@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.android.architecture.blueprints.todoapp.addedittask.AddEditTaskViewModelTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-06-11T21:26:22" hostname="GoldenHind.local" time="0.055">
+  <properties/>
+  <testcase name="loadTasks_loading" classname="com.example.android.architecture.blueprints.todoapp.addedittask.AddEditTaskViewModelTest" time="0.053"/>
+  <testcase name="loadTasks_taskShown" classname="com.example.android.architecture.blueprints.todoapp.addedittask.AddEditTaskViewModelTest" time="0.001"/>
+  <testcase name="saveNewTaskToRepository_showsSuccessMessageUi" classname="com.example.android.architecture.blueprints.todoapp.addedittask.AddEditTaskViewModelTest" time="0.0"/>
+  <testcase name="saveNewTaskToRepository_emptyDescriptionEmptyTitle_error" classname="com.example.android.architecture.blueprints.todoapp.addedittask.AddEditTaskViewModelTest" time="0.0"/>
+  <testcase name="saveNewTaskToRepository_emptyDescription_error" classname="com.example.android.architecture.blueprints.todoapp.addedittask.AddEditTaskViewModelTest" time="0.0"/>
+  <testcase name="saveNewTaskToRepository_emptyTitle_error" classname="com.example.android.architecture.blueprints.todoapp.addedittask.AddEditTaskViewModelTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

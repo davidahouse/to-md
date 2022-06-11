@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksLocalDataSourceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-06-11T21:26:23" hostname="GoldenHind.local" time="0.123">
+  <properties/>
+  <testcase name="activateTask_retrievedTaskIsActive" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksLocalDataSourceTest" time="0.02"/>
+  <testcase name="completeTask_retrievedTaskIsComplete" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksLocalDataSourceTest" time="0.022"/>
+  <testcase name="getTasks_retrieveSavedTasks" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksLocalDataSourceTest" time="0.02"/>
+  <testcase name="saveTask_retrievesTask" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksLocalDataSourceTest" time="0.014"/>
+  <testcase name="deleteAllTasks_emptyListOfRetrievedTask" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksLocalDataSourceTest" time="0.016"/>
+  <testcase name="clearCompletedTask_taskNotRetrievable" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksLocalDataSourceTest" time="0.031"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

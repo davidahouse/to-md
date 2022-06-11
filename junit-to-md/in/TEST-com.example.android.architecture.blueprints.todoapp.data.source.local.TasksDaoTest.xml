@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksDaoTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-06-11T21:26:22" hostname="GoldenHind.local" time="0.714">
+  <properties/>
+  <testcase name="insertTaskAndGetById" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksDaoTest" time="0.584"/>
+  <testcase name="updateTaskAndGetById" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksDaoTest" time="0.019"/>
+  <testcase name="updateCompletedAndGetById" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksDaoTest" time="0.021"/>
+  <testcase name="deleteTaskByIdAndGettingTasks" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksDaoTest" time="0.017"/>
+  <testcase name="deleteCompletedTasksAndGettingTasks" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksDaoTest" time="0.019"/>
+  <testcase name="insertTaskReplacesOnConflict" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksDaoTest" time="0.019"/>
+  <testcase name="insertTaskAndGetTasks" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksDaoTest" time="0.017"/>
+  <testcase name="deleteTasksAndGettingTasks" classname="com.example.android.architecture.blueprints.todoapp.data.source.local.TasksDaoTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

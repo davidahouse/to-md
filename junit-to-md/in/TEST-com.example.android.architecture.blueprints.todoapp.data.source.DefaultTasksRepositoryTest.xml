@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" tests="16" skipped="0" failures="1" errors="0" timestamp="2022-06-11T21:26:22" hostname="GoldenHind.local" time="0.048">
+  <properties/>
+  <testcase name="getTasks_refreshesLocalDataSource" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.003"/>
+  <testcase name="getTask_repositoryCachesAfterFirstApiCall" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.001"/>
+  <testcase name="getTasks_requestsAllTasksFromRemoteDataSource" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.0"/>
+  <testcase name="getTasks_emptyRepositoryAndUninitializedCache" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.026">
+    <failure message="expected to be false" type="com.google.common.truth.AssertionErrorWithFacts">expected to be false
+	at app//com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest$getTasks_emptyRepositoryAndUninitializedCache$1.invokeSuspend(DefaultTasksRepositoryTest.kt:74)
+	at app//com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest$getTasks_emptyRepositoryAndUninitializedCache$1.invoke(DefaultTasksRepositoryTest.kt)
+	at app//com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest$getTasks_emptyRepositoryAndUninitializedCache$1.invoke(DefaultTasksRepositoryTest.kt)
+	at app//kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTestCoroutine$2.invokeSuspend(TestBuilders.kt:208)
+	at app//kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTestCoroutine$2.invoke(TestBuilders.kt)
+	at app//kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTestCoroutine$2.invoke(TestBuilders.kt)
+	at app//kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at app//kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at app//kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at app//kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTestCoroutine(TestBuilders.kt:207)
+	at app//kotlinx.coroutines.test.TestBuildersKt.runTestCoroutine(Unknown Source)
+	at app//kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTest$1$1.invokeSuspend(TestBuilders.kt:167)
+	at app//kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTest$1$1.invoke(TestBuilders.kt)
+	at app//kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt$runTest$1$1.invoke(TestBuilders.kt)
+	at app//kotlinx.coroutines.test.TestBuildersJvmKt$createTestResult$1.invokeSuspend(TestBuildersJvm.kt:13)
+	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at app//kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:279)
+	at app//kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at app//kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at app//kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at app//kotlinx.coroutines.test.TestBuildersJvmKt.createTestResult(TestBuildersJvm.kt:12)
+	at app//kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest(TestBuilders.kt:166)
+	at app//kotlinx.coroutines.test.TestBuildersKt.runTest(Unknown Source)
+	at app//kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest(TestBuilders.kt:154)
+	at app//kotlinx.coroutines.test.TestBuildersKt.runTest(Unknown Source)
+	at app//kotlinx.coroutines.test.TestBuildersKt__TestBuildersKt.runTest$default(TestBuilders.kt:147)
+	at app//kotlinx.coroutines.test.TestBuildersKt.runTest$default(Unknown Source)
+	at app//com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest.getTasks_emptyRepositoryAndUninitializedCache(DefaultTasksRepositoryTest.kt:68)
+</failure>
+  </testcase>
+  <testcase name="getTasks_WithDirtyCache_tasksAreRetrievedFromRemote" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.001"/>
+  <testcase name="saveTask_savesToLocalAndRemote" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.003"/>
+  <testcase name="deleteSingleTask" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.002"/>
+  <testcase name="clearCompletedTasks" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.002"/>
+  <testcase name="deleteAllTasks" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.002"/>
+  <testcase name="getTask_forceRefresh" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.001"/>
+  <testcase name="getTasks_WithRemoteDataSourceUnavailable_tasksAreRetrievedFromLocal" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.001"/>
+  <testcase name="getTasks_WithDirtyCache_remoteUnavailable_error" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.0"/>
+  <testcase name="completeTask_activeTaskToServiceAPIUpdatesCache" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.003"/>
+  <testcase name="completeTask_completesTaskToServiceAPIUpdatesCache" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.0"/>
+  <testcase name="getTasks_repositoryCachesAfterFirstApiCall" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.001"/>
+  <testcase name="getTasks_WithBothDataSourcesUnavailable_returnsError" classname="com.example.android.architecture.blueprints.todoapp.data.source.DefaultTasksRepositoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

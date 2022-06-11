@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.android.architecture.blueprints.todoapp.taskdetail.TaskDetailViewModelTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-06-11T21:26:23" hostname="GoldenHind.local" time="0.026">
+  <properties/>
+  <testcase name="activateTask" classname="com.example.android.architecture.blueprints.todoapp.taskdetail.TaskDetailViewModelTest" time="0.016"/>
+  <testcase name="completeTask" classname="com.example.android.architecture.blueprints.todoapp.taskdetail.TaskDetailViewModelTest" time="0.003"/>
+  <testcase name="getActiveTaskFromRepositoryAndLoadIntoView" classname="com.example.android.architecture.blueprints.todoapp.taskdetail.TaskDetailViewModelTest" time="0.002"/>
+  <testcase name="loadTask_loading" classname="com.example.android.architecture.blueprints.todoapp.taskdetail.TaskDetailViewModelTest" time="0.003"/>
+  <testcase name="taskDetailViewModel_repositoryError" classname="com.example.android.architecture.blueprints.todoapp.taskdetail.TaskDetailViewModelTest" time="0.001"/>
+  <testcase name="deleteTask" classname="com.example.android.architecture.blueprints.todoapp.taskdetail.TaskDetailViewModelTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
