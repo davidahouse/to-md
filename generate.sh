@@ -7,6 +7,10 @@ cd junit-to-md
 cd ..
 
 #### lint-to-md
+echo "Generating files using lint-to-md..."
+cd lint-to-md
+./generate.sh
+cd ..
 
 #### swiftlint-to-md
 
