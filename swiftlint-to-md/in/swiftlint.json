@@ -1,0 +1,56 @@
+[
+  {
+    "character" : 9,
+    "file" : "\/Users\/davidhouse\/Developer\/github\/ControlRoom\/ControlRoom\/NSViewWrappers\/FilterField.swift",
+    "line" : 29,
+    "reason" : "Variable name should be between 3 and 40 characters long: 'tf'",
+    "rule_id" : "identifier_name",
+    "severity" : "Warning",
+    "type" : "Identifier Name"
+  },
+  {
+    "character" : 14,
+    "file" : "\/Users\/davidhouse\/Developer\/github\/ControlRoom\/ControlRoom\/Controllers\/SimCtl+Types.swift",
+    "line" : 21,
+    "reason" : "Enum element name should be between 3 and 40 characters long: 'tv'",
+    "rule_id" : "identifier_name",
+    "severity" : "Warning",
+    "type" : "Identifier Name"
+  },
+  {
+    "character" : 13,
+    "file" : "\/Users\/davidhouse\/Developer\/github\/ControlRoom\/ControlRoom\/Controllers\/SimCtl+Types.swift",
+    "line" : 128,
+    "reason" : "Variable name should be between 3 and 40 characters long: 'os'",
+    "rule_id" : "identifier_name",
+    "severity" : "Warning",
+    "type" : "Identifier Name"
+  },
+  {
+    "character" : 13,
+    "file" : "\/Users\/davidhouse\/Developer\/github\/ControlRoom\/ControlRoom\/Controllers\/SimulatorsController.swift",
+    "line" : 163,
+    "reason" : "Variable name should be between 3 and 40 characters long: 'on'",
+    "rule_id" : "identifier_name",
+    "severity" : "Warning",
+    "type" : "Identifier Name"
+  },
+  {
+    "character" : 5,
+    "file" : "\/Users\/davidhouse\/Developer\/github\/ControlRoom\/ControlRoom\/Helpers\/TypeIdentifier.swift",
+    "line" : 17,
+    "reason" : "Variable name should be between 3 and 40 characters long: 'tv'",
+    "rule_id" : "identifier_name",
+    "severity" : "Warning",
+    "type" : "Identifier Name"
+  },
+  {
+    "character" : null,
+    "file" : "\/Users\/davidhouse\/Developer\/github\/ControlRoom\/ControlRoom\/Helpers\/CommandLineExecuter.swift",
+    "line" : 107,
+    "reason" : "Line should be 200 characters or less: currently 209 characters",
+    "rule_id" : "line_length",
+    "severity" : "Error",
+    "type" : "Line Length"
+  }
+]
