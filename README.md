@@ -22,6 +22,9 @@ Tools represented in this repository:
 
 #### xcodelog-to-md
 
+- [xcodelog-to-md summary](./xcodelog-to-md/out/xcodelog-to-md-summary.md)
+- [xcodelog-to-md text](./xcodelog-to-md/out/xcodelog-to-md-text.md)
+
 #### ktlint-to-md
 
 #### xcodebuild-to-md
