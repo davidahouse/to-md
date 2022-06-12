@@ -29,6 +29,10 @@ cd ..
 #### xcodebuild-to-md
 
 #### depcheck-to-md
+echo "Generating files using depcheck-to-md..."
+cd depcheck-to-md
+./generate.sh
+cd ..
 
 #### outdated-to-md
 
