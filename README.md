@@ -29,7 +29,10 @@ Tools represented in this repository:
 
 #### xcodebuild-to-md
 
-#### depcheck-to-md
+#### depcheck-to-md [[https://github.com/davidahouse/depcheck-to-md](https://github.com/davidahouse/depcheck-to-md)]
+
+- [depcheck-to-md summary](./depcheck-to-md/out/depcheck-to-md-summary.md)
+- [depcheck-to-md text](./depcheck-to-md/out/depcheck-to-md-text.md)
 
 #### outdated-to-md
 
