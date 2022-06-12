@@ -19,6 +19,10 @@ cd swiftlint-to-md
 cd ..
 
 #### xcodelog-to-md
+echo "Generating files using xcodelog-to-md..."
+cd xcodelog-to-md
+./generate.sh
+cd ..
 
 #### ktlint-to-md
 
